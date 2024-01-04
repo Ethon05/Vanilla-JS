@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E5E1DA;
+}
+
+.secs {
+  margin: 0 10px 10px 10px;
+}
+
+span {
+  display: block;
+  margin-top: 10px;
+}
+
+h1{
+  color: #0F1035;
+  font-family: verdana;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 0.8rem;
+}
+
+.container{
+  width: 50%;
+  background-color: #FBF9F1;
+  margin: 10rem auto;
+  border: 2px solid #0F1035;
+  border-radius: 1rem;
+  padding: 10px;
+  box-shadow: 10px 10px #0F1035;
+
+}
+
+label, #rate_val {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+input, select {
+  width: 70%;
+  height: 1.5rem;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  vertical-align: middle;
+}
+
+button {
+  display: block;
+  font-size: 1.5rem;
+  padding: 10px 8px;
+  color: #FBF9F1;
+  background-color: #0F1035;
+  border: none;
+  border-radius: 0.8rem;
+  text-align: center;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #E5E1DA;
+  font-weight: bold;
+  color: #0F1035;
+  border: 1px solid #0F1035;
+}
+
+#result {
+  display: block;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+footer {
+  font-size: small;
+  margin-left: 1rem;
+}
+
+
